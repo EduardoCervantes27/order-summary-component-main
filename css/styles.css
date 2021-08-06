@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+} 
+body {
+    background-color: rgba(224, 232, 255, 1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.main-card {
+    background-color: white;
+    width: 350px;
+    height: 570px;
+    position: absolute;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.bottom-content {
+    text-align: center;
+    padding: 10px 40px;
+}
+.bottom-content h1 {
+    font-weight: 900;
+    font-size: 25px;
+    color: #253360;
+}
+.bottom-content p {
+    color: #8388A9;
+    line-height: 1.5;
+}
+.first-grid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    gap: 20px;
+}
+.second-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.music-icon {
+    width: 50px;
+    height: 50px;
+}
+.cost {
+    background-color: #F8F9FE;
+    padding: 15px;
+    border-radius: 10px;
+}
+.first-grid a {
+    color: #3428AD;
+}
+.first-grid a:hover {
+    color: #756BD5;
+    text-decoration: none;
+}
+.annual-plan p{
+    margin: 0;
+}
+.proceed-button {
+    border-style: none;
+    width: 270px;
+    padding: 15px;
+    background-color: #382AE1;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 25px 15px #DEDBF8;
+    transition: all 200ms;
+}
+.proceed-button:hover {
+    background-color: #766BF4;
+}
+.cancel-order {
+    color: #6A6F89;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+.cancel-order:hover {
+    color: #17203B;
+}
